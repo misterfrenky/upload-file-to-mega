@@ -12,7 +12,7 @@ It's time to make an magic from a small file by using command line:
 ```
 python3 test.py -e "<your email>" -p "<your password>" -d "<folder path>" -f "<file path>"
 ```
-- *-e* : your login email, eq: `xxxx@gmail.com`. (Required)
-- *-p* : your login password, eq: `123456789`. (Required)
-- *-d* : your folder's path on your Mega, eq: `folder1`. (optional)
-- *-f* : your file path in your local, eq: `backup/file.txt`. (Required)
+- **-e** : your login email, eq: `xxxx@gmail.com`. (Required)
+- **-p** : your login password, eq: `123456789`. (Required)
+- **-d** : your folder's path on your Mega, eq: `folder1`. (optional)
+- **-f** : your file path in your local, eq: `backup/file.txt`. (Required)
