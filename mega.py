@@ -32,7 +32,7 @@ def main(argv):
   filename = ''
   email = ''
   password = ''
-  opts, args = getopt.getopt(argv,"hi:e:p:d:f:",["ifile=","ofile="])
+  opts, args = getopt.getopt(argv,"hi:e:p:d:f:",["Email=","Password=","Directory=","Filename="])
   for opt, arg in opts:
       if opt == '-h':
          print ('test.py -i <inputfile> -o <outputfile>')
