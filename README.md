@@ -10,7 +10,7 @@ pip install mega.py
 ## Step 3: Usage
 It's time to make an magic from a small file by using command line:
 ```
-python3 test.py -e "<your email>" -p "<your password>" -d "<folder path>" -f "<file path>"
+python3 mega.py -e "<your email>" -p "<your password>" -d "<folder path>" -f "<file path>"
 ```
 - **-e** : your login email, eq: `xxxx@gmail.com`. *(Required)*
 - **-p** : your login password, eq: `123456789`. *(Required)*
